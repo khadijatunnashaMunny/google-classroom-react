@@ -6,7 +6,7 @@ import {
   } from "react-router-dom";
 import Login from './Login/Login';
 import Register from './Registration/Registration';
-import Dashboard from './Dashboard/Dashboard';
+import Dashboard from './Dashboard/Teams';
 
 function MainRouter () {
         return (
@@ -16,7 +16,7 @@ function MainRouter () {
                     <Route path="/" element={<Login />} />
                     <Route path="/signup" element={<Register />} />
                     <Route path="/dashboard" element={<Dashboard />} />
-                   
+
                 </Routes>
             </Router>
             </>

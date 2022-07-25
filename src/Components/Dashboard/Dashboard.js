@@ -21,6 +21,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import { Grid } from '@mui/material';
 import Filter from './Filter/Filter';
 import MainContex from './MainContext/MainContex';
+import Teams from './Teams';
 
 const drawerWidth = 240;
 
@@ -183,19 +184,7 @@ export default function MiniDrawer() {
           ))}
         </List>
       </Drawer>
-      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-        <DrawerHeader />
-        <Grid container>
-          <Grid item md={6} xs={12} lg={4}>
-           <Filter/>
-          </Grid>
-          <Grid item md={6} xs={12} lg={8}>
-            <MainContex/>
-          </Grid>
-        </Grid>
      
-       
-      </Box>
     </Box>
   );
 }
