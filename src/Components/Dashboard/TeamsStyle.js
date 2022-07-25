@@ -11,10 +11,30 @@ export default makeStyles((theme) => ({
         paddingLeft:'10px'
       },
       card:{
-        height:'200px',
-        width:'100%',
-        textAlign: 'center',
+        width:'auto',
+        height:'220px',
+        marginRight: '15px',
         boxShadow: '1px 1px 5px #ccc',
+        alignItems:'center',
+      },
+      courseHeader:{
+        width:'auto',
+        height:'100px',
+      },
+      TeacherImg:{
+        display:'flex',
+        justifyContent: 'flex-end',
+        margin:'10px'
+      },
+      courseTeacherImg:{
+        height:'80px',
+        width:'80px',
+        borderRadius:'50%',
+        marginTop:'-30px',
+    },
+    courseHeaderText:{
+        padding:'5px',
 
-      }
+
+    }
 }));
