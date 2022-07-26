@@ -1,6 +1,6 @@
 import { Grid, Typography,Card,CardContent} from '@mui/material';
 import React from 'react';
-import Dashboard from './Dashboard'
+import Sidebar from '../Sidebar'
 import useStyles from './TeamsStyle';
 
 function Teams() {
@@ -8,7 +8,7 @@ function Teams() {
 
     return (
         <div className={classes.root} >
-            <Dashboard/>
+            <Sidebar/>
             <main className={classes.content}>
                 <Typography>Teams*</Typography> 
                 <Grid container>
@@ -56,7 +56,7 @@ function Teams() {
         </Card>
     </Grid>   
     <Grid item xs={12} md={6} lg={3}>
-    <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px'}}>
+        <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px'}}>
         <div className={classes.courseHeader} style={{background:'#005671'}}>
             <Typography className={classes.courseHeaderText} varient="h3">Talent Name</Typography>
             <Typography className={classes.courseHeaderText} varient="h6">Lead Software Engineer</Typography>

@@ -19,9 +19,7 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { Grid } from '@mui/material';
-import Filter from './Filter/Filter';
-import MainContex from './MainContext/MainContex';
-import Teams from './Teams';
+
 
 const drawerWidth = 240;
 
@@ -93,7 +91,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
   }),
 );
 
-export default function MiniDrawer() {
+export default function Sidebar() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
