@@ -41,12 +41,18 @@ export default makeStyles((theme) => ({
         },
         message:{
             display:'flex',
+            justifyContent:'right',
+            marginTop:'2%',
+
         },
         messageInput:{
           height:'50px',
           width:'100%',
           borderRadius:'6px',
           border:'1px solid #005671',
+          overflowWrap: 'anywhere',
+          display:'flex',
+          justifyContent: 'right',
   
         },
         submitBtn:{
@@ -54,10 +60,13 @@ export default makeStyles((theme) => ({
             width:'100%',
         },
         messageOutput:{
-            width:'100%',
-            height: '80vh',
-            marginBottom: '20px',
-            bottom: '5',
+          width:'auto',
+          borderRadius:'20px',
+          overflowWrap: 'anywhere',
+          padding:'2%',
+          display: 'flex',
+          justifyContent: 'right',
+         
 
         },
         profileImg:{

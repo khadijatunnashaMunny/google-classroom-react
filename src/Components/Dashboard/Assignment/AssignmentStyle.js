@@ -57,4 +57,24 @@ export default makeStyles((theme) => ({
     title: {
         paddingTop: theme.spacing(5),
     },
+    assignmentBox:{
+      display:'flex',
+      height:'100px',
+      width:'100%',
+      border: '2px solid #00756A',
+      borderRadius:'6px',
+      padding:'2%',
+      marginTop:'1%',
+      marginBottom:'1%'
+
+    },
+    text:{
+      display:'flex',
+      justifyContent: 'right',
+      padding:'2%',
+  
+
+
+    }
+   
 }));
