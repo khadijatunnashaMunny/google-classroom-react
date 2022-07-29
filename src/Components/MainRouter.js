@@ -8,18 +8,27 @@ import Login from './Login/Login';
 import Register from './Registration/Registration';
 import Dashboard from './Dashboard/Teams/Teams';
 import Grade from './Dashboard/Grade/Grade';
+import Assignment from './Dashboard/Assignment/Assignment';
+import StudentList from './Dashboard/StudentList/StudentList';
+import Chat from './Dashboard/Chat/Chat';
+
 
 function MainRouter () {
         return (
             <>
-            <Router>
-                <Routes>
-                    <Route path="/" element={<Login />} />
-                    <Route path="/signup" element={<Register />} />
-                    <Route path="/dashboard" element={<Dashboard />} />
-                    <Route path="/grade" element={<Grade />} />
-                </Routes>
-            </Router>
+                <Router>
+                    <Routes>
+                        <Route path="/" element={<Login />} />
+                        <Route path="/signup" element={<Register />} />
+                        <Route path="/dashboard" element={<Dashboard />} />
+                        <Route path="/grade" element={<Grade />} />
+                        <Route path="/assignment" element={<Assignment />} />
+                        <Route path="/studentList" element={<StudentList />} />
+                        <Route path="/chat" element={<Chat />} />
+
+
+                    </Routes>
+                </Router>
             </>
         );
     

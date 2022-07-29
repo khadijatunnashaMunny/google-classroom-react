@@ -90,7 +90,7 @@ function Teams() {
             <Sidebar/>
             <main className={classes.content}  >
             <Grid container>
-              <Grid item lg={3} xs={12} style={{background:'#f7f8fa',boxShadow: '1px 1px 5px  #ccc',}} >
+              <Grid item lg={3} xs={12} className={classes.filterSection} style={{background:'#f7f8fa'}} >
                 <Filter />
               </Grid>
               <Grid item lg={9} xs={12} style={{paddingLeft:'2px'}} >
