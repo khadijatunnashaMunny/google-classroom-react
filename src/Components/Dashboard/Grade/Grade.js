@@ -95,7 +95,7 @@ function Teams() {
               </Grid>
               <Grid item lg={9} xs={12} style={{paddingLeft:'2px'}} >
               <div className={classes.gradeHeader} 
-              // style={{background:'#FFA500'}}
+              style={{background:'#FFA500'}}
               >
                   <Typography>Grades*</Typography>
               </div>

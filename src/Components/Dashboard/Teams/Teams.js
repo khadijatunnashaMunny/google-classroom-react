@@ -15,8 +15,8 @@ function Teams() {
                 <Grid item xs={12} md={6} lg={3}>
                 <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px' }}>
                     <div className={classes.courseHeader} style={{background:'#005671'}}>
-                        <Typography className={classes.courseHeaderText} varient="h3">Talent Name</Typography>
-                        <Typography className={classes.courseHeaderText} varient="h6">Lead Software Engineer</Typography>
+                        <Typography className={classes.courseHeaderText} variant="h6">Talent Name</Typography>
+                        <Typography className={classes.courseHeaderText}>Lead Software Engineer</Typography>
                     </div>
                     <div className={classes.TeacherImg}>
                         <img className={classes.courseTeacherImg}  src="https://res.cloudinary.com/wagon/image/upload/c_fill,h_460,q_auto,w_488/v1605879358/jcoffmyvuvo18eovdkuf.webp"/>
@@ -26,8 +26,8 @@ function Teams() {
             <Grid item xs={12} md={6} lg={3}>
             <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px'}}>
                 <div className={classes.courseHeader} style={{background:'#005671'}}>
-                    <Typography className={classes.courseHeaderText} varient="h3">Talent Name</Typography>
-                    <Typography className={classes.courseHeaderText} varient="h6">Lead Software Engineer</Typography>
+                    <Typography className={classes.courseHeaderText} variant="h6">Talent Name</Typography>
+                    <Typography className={classes.courseHeaderText} >Lead Software Engineer</Typography>
                 </div>
                 <div className={classes.TeacherImg}>
                     <img className={classes.courseTeacherImg}  src="https://res.cloudinary.com/wagon/image/upload/c_fill,h_460,q_auto,w_488/v1605879358/jcoffmyvuvo18eovdkuf.webp"/>
@@ -36,8 +36,8 @@ function Teams() {
         </Grid>   <Grid item xs={12} md={6} lg={3}>
         <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px'}}>
             <div className={classes.courseHeader} style={{background:'#005671'}}>
-                <Typography className={classes.courseHeaderText} varient="h3">Talent Name</Typography>
-                <Typography className={classes.courseHeaderText} varient="h6">Lead Software Engineer</Typography>
+                <Typography className={classes.courseHeaderText} variant="h6">Talent Name</Typography>
+                <Typography className={classes.courseHeaderText} >Lead Software Engineer</Typography>
             </div>
             <div className={classes.TeacherImg}>
                 <img className={classes.courseTeacherImg}  src="https://res.cloudinary.com/wagon/image/upload/c_fill,h_460,q_auto,w_488/v1605879358/jcoffmyvuvo18eovdkuf.webp"/>
@@ -47,8 +47,8 @@ function Teams() {
         <Grid item xs={12} md={6} lg={3}>
         <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px'}}>
             <div className={classes.courseHeader} style={{background:'#005671'}}>
-                <Typography className={classes.courseHeaderText} varient="h3">Talent Name</Typography>
-                <Typography className={classes.courseHeaderText} varient="h6">Lead Software Engineer</Typography>
+                <Typography className={classes.courseHeaderText} variant="h6">Talent Name</Typography>
+                <Typography className={classes.courseHeaderText} >Lead Software Engineer</Typography>
             </div>
             <div className={classes.TeacherImg}>
                 <img className={classes.courseTeacherImg}  src="https://res.cloudinary.com/wagon/image/upload/c_fill,h_460,q_auto,w_488/v1605879358/jcoffmyvuvo18eovdkuf.webp"/>
@@ -58,8 +58,8 @@ function Teams() {
     <Grid item xs={12} md={6} lg={3}>
         <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px'}}>
         <div className={classes.courseHeader} style={{background:'#005671'}}>
-            <Typography className={classes.courseHeaderText} varient="h3">Talent Name</Typography>
-            <Typography className={classes.courseHeaderText} varient="h6">Lead Software Engineer</Typography>
+            <Typography className={classes.courseHeaderText} variant="h6">Talent Name</Typography>
+            <Typography className={classes.courseHeaderText} >Lead Software Engineer</Typography>
         </div>
         <div className={classes.TeacherImg}>
             <img className={classes.courseTeacherImg}  src="https://res.cloudinary.com/wagon/image/upload/c_fill,h_460,q_auto,w_488/v1605879358/jcoffmyvuvo18eovdkuf.webp"/>
@@ -69,8 +69,8 @@ function Teams() {
     <Grid item xs={12} md={6} lg={3}>
         <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px'}}>
             <div className={classes.courseHeader} style={{background:'#005671'}}>
-                <Typography className={classes.courseHeaderText} varient="h3">Talent Name</Typography>
-                <Typography className={classes.courseHeaderText} varient="h6">Lead Software Engineer</Typography>
+                <Typography className={classes.courseHeaderText} variant="h6">Talent Name</Typography>
+                <Typography className={classes.courseHeaderText} >Lead Software Engineer</Typography>
             </div>
             <div className={classes.TeacherImg}>
                 <img className={classes.courseTeacherImg}  src="https://res.cloudinary.com/wagon/image/upload/c_fill,h_460,q_auto,w_488/v1605879358/jcoffmyvuvo18eovdkuf.webp"/>
@@ -80,8 +80,8 @@ function Teams() {
     <Grid item xs={12} md={6} lg={3}>
     <Card className={classes.card} style={{background:'#f7f8fa',margin:'10px'}}>
         <div className={classes.courseHeader} style={{background:'#005671'}}>
-            <Typography className={classes.courseHeaderText} varient="h3">Talent Name</Typography>
-            <Typography className={classes.courseHeaderText} varient="h6">Lead Software Engineer</Typography>
+            <Typography className={classes.courseHeaderText} variant="h6">Talent Name</Typography>
+            <Typography className={classes.courseHeaderText} >Lead Software Engineer</Typography>
         </div>
         <div className={classes.TeacherImg}>
             <img className={classes.courseTeacherImg}  src="https://res.cloudinary.com/wagon/image/upload/c_fill,h_460,q_auto,w_488/v1605879358/jcoffmyvuvo18eovdkuf.webp"/>
