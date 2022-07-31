@@ -94,7 +94,9 @@ function Teams() {
                 <Filter />
               </Grid>
               <Grid item lg={9} xs={12} style={{paddingLeft:'2px'}} >
-              <div className={classes.gradeHeader} style={{background:'#FFA500'}}>
+              <div className={classes.gradeHeader} 
+              // style={{background:'#FFA500'}}
+              >
                   <Typography>Grades*</Typography>
               </div>
               <Paper sx={{ width: '100%' }}>

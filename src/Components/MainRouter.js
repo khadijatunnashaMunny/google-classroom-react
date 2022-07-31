@@ -11,6 +11,7 @@ import Grade from './Dashboard/Grade/Grade';
 import Assignment from './Dashboard/Assignment/Assignment';
 import StudentList from './Dashboard/StudentList/StudentList';
 import Chat from './Dashboard/Chat/Chat';
+import AssignmentDetail from './Dashboard/Assignment/AssignmentDetail';
 
 
 function MainRouter () {
@@ -25,6 +26,7 @@ function MainRouter () {
                         <Route path="/assignment" element={<Assignment />} />
                         <Route path="/studentList" element={<StudentList />} />
                         <Route path="/chat" element={<Chat />} />
+                        <Route path="/assignmentDetail" element={<AssignmentDetail />} />
 
 
                     </Routes>

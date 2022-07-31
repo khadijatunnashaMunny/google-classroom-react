@@ -14,17 +14,22 @@ function Chat() {
         <Sidebar/>
         <main className={classes.content}  >
         <Grid container>
-          <Grid item lg={3} xs={12} style={{background:'#f7f8fa',boxShadow: '1px 1px 5px  #ccc',}} >
+          <Grid item lg={3} xs={12} style={{boxShadow: '1px 1px 5px  #ccc',}} >
+          //background:'#f7f8fa'
             <Filter />
           </Grid>
           <Grid item lg={9} xs={12} style={{paddingLeft:'2px',}} >
-          <div className={classes.gradeHeader} style={{background:'#FFA500'}}>
+          <div className={classes.gradeHeader} 
+        //   style={{background:'#FFA500'}}
+          >
               <Typography>Chat*</Typography>
           </div>
           <div>
             <Grid container className={classes.message}>
         
-                <Grid item lg={11} md={6} className={classes.messageOutput} style={{background:'#005671'}} >
+                <Grid item lg={11} md={6} className={classes.messageOutput} 
+                // style={{background:'#005671'}} 
+                >
                     <div >
                         <Typography >message output</Typography>
                     </div>
@@ -41,7 +46,9 @@ function Chat() {
             
           <Grid container className={classes.message}>
       
-              <Grid item lg={11} md={6} className={classes.messageOutput} style={{background:'#005671'}} >
+              <Grid item lg={11} md={6} className={classes.messageOutput} 
+            //   style={{background:'#005671'}} 
+              >
                   <div >
                       <Typography >message</Typography>
                   </div>

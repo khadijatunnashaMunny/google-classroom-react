@@ -21,58 +21,16 @@ function Assignment() {
                         <Typography>Assignment*</Typography>
                     </div>
                     <Grid container className={classes.assignmentBox} >
-                      <Grid item lg={6} >
+                      <Grid item lg={6} md={6} xs={12}>
                         <Typography>Assignment</Typography>
                         <Typography>Assignment</Typography>
                       </Grid>
-                      <Grid item lg={6} className={classes.text}>
-                        <Typography>Assignment</Typography>
-                        <Typography>Assignment</Typography>
-                      </Grid>
-                    </Grid>
-                    <Grid container className={classes.assignmentBox} >
-                      <Grid item lg={6} >
-                      <div >
-                        <Typography>Assignment</Typography>
-                        <Typography>Assignment</Typography>
-                      </div>
-                       
-                      </Grid>
-                      <Grid item lg={6}>
-                      <div className={classes.text}>
-                      <Typography>Assignment</Typography>
-                      <Typography>Assignment</Typography>
-                      </div>
-                       
-                      </Grid>
-                    </Grid>
-                    <Grid container className={classes.assignmentBox} >
-                      <Grid item lg={6} >
+                      <Grid item lg={6} md={6} xs={12} className={classes.text}>
                         <Typography>Assignment</Typography>
                         <Typography>Assignment</Typography>
                       </Grid>
-                      <Grid item lg={6} className={classes.text}>
-                        <Typography>Assignment</Typography>
-                        <Typography>Assignment</Typography>
-                      </Grid>
-                    </Grid><Grid container className={classes.assignmentBox} >
-                    <Grid item lg={6} >
-                      <Typography>Assignment</Typography>
-                      <Typography>Assignment</Typography>
                     </Grid>
-                    <Grid item lg={6} className={classes.text}>
-                      <div>
-                      <Typography>Assignment</Typography>
-
-                      </div>
-                      <div>
-                      <Typography>Assignment</Typography>
-
-                      </div>
-                     
-                      <Typography>Assignment</Typography>
-                    </Grid>
-                  </Grid>
+                  
                     
                   </Grid>
               </Grid>

@@ -59,7 +59,9 @@ export default makeStyles((theme) => ({
     },
     assignmentBox:{
       display:'flex',
-      height:'100px',
+      alignItems:'center',
+      justifyContent:'space-between',
+      height:'150px',
       width:'100%',
       border: '2px solid #00756A',
       borderRadius:'6px',
@@ -71,10 +73,7 @@ export default makeStyles((theme) => ({
     text:{
       display:'flex',
       justifyContent: 'right',
-      padding:'2%',
   
-
-
     }
    
 }));
