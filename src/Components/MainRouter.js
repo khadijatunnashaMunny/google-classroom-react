@@ -12,6 +12,7 @@ import Assignment from './Dashboard/Assignment/Assignment';
 import StudentList from './Dashboard/StudentList/StudentList';
 import Chat from './Dashboard/Chat/Chat';
 import AssignmentDetail from './Dashboard/Assignment/AssignmentDetail';
+import Image from './Image/Image';
 
 
 function MainRouter () {
@@ -27,6 +28,7 @@ function MainRouter () {
                         <Route path="/studentList" element={<StudentList />} />
                         <Route path="/chat" element={<Chat />} />
                         <Route path="/assignmentDetail" element={<AssignmentDetail />} />
+                        <Route path="/image" element={<Image />} />
 
 
                     </Routes>
