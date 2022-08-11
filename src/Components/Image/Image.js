@@ -1,9 +1,11 @@
 import { Grid, Typography,TextField,Checkbox,TextareaAutosize, Button} from '@mui/material';
 import React from 'react';
 import useStyles from './ImageStyle';
+import Autocomplete from '@mui/material/Autocomplete';
 
 function Teams() {
     const classes = useStyles();
+    const privacy=['public','only me']
     return (
         <div className={classes.root} >
         <Grid container>
@@ -24,6 +26,13 @@ function Teams() {
             </div>
 
             <TextField id="outlined-basic" className={classes.textFieldInput} label="Title*" variant="outlined" />
+            <Autocomplete
+                disablePortal
+                id="combo-box-demo"
+                options={privacy}
+                sx={{ width: 300 }}
+                renderInput={(params) => <TextField {...params} label="Movie" />}
+                />
             <TextareaAutosize
             className={classes.textFieldInput}
                 aria-label="minimum height"
